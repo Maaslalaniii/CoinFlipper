@@ -1,7 +1,7 @@
 $(function () {
 
 	// Balance screens
-	var buy_credit_screen = "<div id=\"buyCredits\"><span class=\"buy-coin button-small\" data-money=\"200\">200</span>$0.99<span class=\"buy-coin button-small\" data-money=\"400\">500</span>$0.99<span class=\"buy-coin button-small\" data-money=\"1000\">1000</span>$0.99</div></div>";
+	var buy_credit_screen = "<div id=\"buyCredits\"><span class=\"buy-coin button-small\" data-money=\"200\">200</span>$0.00<span class=\"buy-coin button-small\" data-money=\"400\">500</span>$0.00<span class=\"buy-coin button-small\" data-money=\"1000\">1000</span>$0.00</div></div>";
 	var balance_screen = "<h1>BALANCE <span id=\"addFunds\">+</span></h1><h2>$<span id=\"balance_value\">100</span></h2><h1>WAGER</h1><h2>$<span contenteditable=\"true\" id=\"wager_value\">25</span></h2>";
 
 	// Game variables
