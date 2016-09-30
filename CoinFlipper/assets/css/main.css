@@ -1,0 +1,179 @@
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	-webkit-user-select: none;
+	/* Chrome/Safari */
+	-moz-user-select: none;
+	/* Firefox */
+	-ms-user-select: none;
+	/* IE10+ */
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+#sidebar {
+	width: 34%;
+	height: 100%;
+	display: inline-block;
+	border-right: 1px solid #aaa;
+	overflow-y: scroll;
+}
+
+.sidebar_section {
+	height: 30%;
+	padding: 10px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#balance #addFunds,
+#return {
+	color: #bababa;
+	cursor: pointer;
+	transition: color 0.2s ease-in-out;
+}
+
+#balance #addFunds:hover {
+	color: #7b7b7b;
+}
+
+#instructions {
+	padding: 6%;
+}
+
+#main {
+	width: 65%;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+	float: right;
+}
+
+.button {
+	background-color: white;
+	color: black;
+	border: 2px solid #4CAF50;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	font-size: 1vw;
+	margin: 10px 10px;
+	width: 25%;
+	transition: all 0.3s ease-in-out;
+	margin-left: 6px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #4CAF50;
+	/* Green */
+	color: white;
+}
+
+.input {
+	margin: 10px;
+	padding: 2%;
+	width: 50%;
+}
+
+#balance {}
+
+#buyCredits {
+	/*visibility: hidden;*/
+	color: #000;
+	width: inherit;
+	padding: 9%;
+	text-align: center;
+	font-size: 1vw;
+	/* Position the tooltip */
+}
+
+.button-small {
+	background-color: white;
+	color: black;
+	border: 2px solid #4CAF50;
+	padding: 5px 20px;
+	margin: 8px 20px;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	font-size: 1vw;
+	width: 37%;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.button-small:hover {
+	background-color: #4CAF50;
+	/* Green */
+	color: white;
+}
+
+hr {
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2 {
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 2%;
+	font-size: 2vw;
+}
+
+p {
+	margin-top: 0;
+}
+
+.huge {
+	font-size: 50px;
+}
+
+.large {
+	font-size: 30px;
+}
+
+.side_choice {
+	padding: 5px 3%;
+	font-size: 22px;
+	background-color: white;
+	color: black;
+	border: 2px solid #4CAF50;
+	padding: 10px 20px;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.side_choice:nth-child(2) {
+	border-left: 0;
+}
+
+.active_side_choice {
+	background-color: #4CAF50;
+	color: white;
+	border: 2px solid #4CAF50;
+}
+
+.circle {
+	margin: 10% auto;
+	width: 40vh;
+	height: 40vh;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/tails.png);
+}
+
+.heads {
+	background-image: url(../images/heads.png);
+}
+
+.result {
+	margin-top: -5%;
+}
